@@ -53,7 +53,7 @@ Analisis ini berfokus pada penerapan pemodelan klasifikasi untuk memprediksi tin
 
 Proses analisis diawali dengan mengimpor berbagai package yang diperlukan, seperti [Pandas](https://pandas.pydata.org/) untuk pengolahan data, [NumPy](https://numpy.org/) untuk operasi numerik dan array [Matplotlib](https://matplotlib.org/) dan [Seaborn](https://seaborn.pydata.org/) untuk keperluan visualisasi, serta [scikit-learn](https://scikit-learn.org/stable/) untuk normalisasi, encoding, pemodelan dan evaluasi. Setelah itu, dataset diimpor untuk memulai analisis.
 
-Setelah dataset dimuat, tahap pertama adalah Exploratory Data Analysis (EDA), di mana data dieksplorasi untuk memahami distribusi variabel, hubungan antar fitur, dan mendeteksi masalah seperti data yang hilang atau pencilan.
+Setelah dataset dimuat, tahap pertama adalah Exploratory Data Analysis (EDA), di mana data dieksplorasi untuk memahami distribusi variabel, hubungan antar fitur, dan mendeteksi masalah seperti data yang hilang atau _Missing Value_.
 
 Kemudian, proses Preprocessing dilakukan untuk menyiapkan data agar siap digunakan dalam model pembelajaran mesin. Langkah ini meliputi penanganan data yang hilang, konversi variabel kategorikal menjadi format numerik, dan normalisasi data.
 
@@ -68,11 +68,11 @@ Dataset yang digunakan diambil dari github [Penjelasan Data](https://github.com/
 
 ## Dependencies
 Berikut daftar dependensi yang dibutuhkan agar code yang tertera dapar dijalankan dengan baik :
-1. pandas
-2. numpy
-3. matplotlib
-4. seaborn
-5. scikit-learn
+1. pandas==1.5.3
+2. numpy==1.22.4
+3. matplotlib==3.7.1
+4. seaborn==0.12.2
+5. scikit-learn==1.2.2
 
 ## Get Started
 Untuk memulai proyek ini, pastikan Anda telah menginstal semua package yang dibutuhkan. Anda dapat melakukannya dengan mengikuti langkah-langkah berikut:
