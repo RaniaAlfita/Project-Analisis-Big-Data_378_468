@@ -1,5 +1,5 @@
 # Spotify Songs Data
-![Spotify]()
+![Spotify](https://github.com/RaniaAlfita/Project-Analisis-Big-Data_378_468/blob/main/assets/spotify.png)
 
 # Table of Content
 1. [Introduction](#introduction)
@@ -30,7 +30,7 @@ Dengan menggunakan Spotify Songs Dataset, analisis dapat dilakukan untuk menggal
 ## Problem Solving Plan
 Data yang tersedia meliputi informasi mengenai nama playlist, id playlist, genre, tempo, instrumental, energi lagu, dan masih banyak lagi. 
 
-[image]
+![Problem_Solving_Plan](https://github.com/RaniaAlfita/Project-Analisis-Big-Data_378_468/blob/main/assets/Problem_Solving_Plan.png)
 
 
 Analisis ini akan dilakukan menggunakan metodologi yang terdiri dari beberapa tahapan, yaitu:
@@ -41,7 +41,7 @@ Analisis ini akan dilakukan menggunakan metodologi yang terdiri dari beberapa ta
 
 
 ## Analysis Techniques
-[image]
+![EDA](https://github.com/RaniaAlfita/Project-Analisis-Big-Data_378_468/blob/main/assets/EDA.png)
 
 Pada tahap awal, dilakukan proses eksplorasi data (EDA) untuk menganalisis distribusi dan pola yang terdapat dalam dataset. Berbagai teknik visualisasi, seperti grafik distribusi, histogram, dan heatmap, digunakan untuk mengenali variabel-variabel yang berpotensi memengaruhi popularitas lagu secara signifikan. Selain itu, EDA juga berfungsi untuk mengidentifikasi keberadaan data yang hilang atau outlier, yang perlu ditangani guna meningkatkan akurasi model yang akan dibangun.
 
