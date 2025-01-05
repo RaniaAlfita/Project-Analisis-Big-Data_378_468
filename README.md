@@ -1,5 +1,5 @@
 # Spotify Songs Data
-[image]
+![Spotify]()
 
 # Table of Content
 1. [Introduction](#introduction)
@@ -49,8 +49,6 @@ Analisis ini berfokus pada penerapan pemodelan klasifikasi untuk memprediksi tin
 
 
 ## Workflow
-[image]
-
 Proses analisis diawali dengan mengimpor berbagai package yang diperlukan, seperti [Pandas](https://pandas.pydata.org/) untuk pengolahan data, [NumPy](https://numpy.org/) untuk operasi numerik dan array [Matplotlib](https://matplotlib.org/) dan [Seaborn](https://seaborn.pydata.org/) untuk keperluan visualisasi, serta [scikit-learn](https://scikit-learn.org/stable/) untuk normalisasi, encoding, pemodelan dan evaluasi. Setelah itu, dataset diimpor untuk memulai analisis.
 
 Setelah dataset dimuat, tahap pertama adalah Exploratory Data Analysis (EDA), di mana data dieksplorasi untuk memahami distribusi variabel, hubungan antar fitur, dan mendeteksi masalah seperti data yang hilang atau _Missing Value_.
