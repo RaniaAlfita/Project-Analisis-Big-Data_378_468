@@ -35,8 +35,8 @@ Data yang tersedia meliputi informasi mengenai nama playlist, id playlist, genre
 
 Analisis ini akan dilakukan menggunakan metodologi yang terdiri dari beberapa tahapan, yaitu:
 
-1. Pra-pemrosesan Data: Mengatasi nilai yang hilang, serta normalisasi atau standarisasi fitur numerik yang relevan untuk analisis lebih lanjut.
-2. Pemodelan: Menggunakan teknik pembelajaran mesin, seperti Random Forest Classifier atau Random Forest Regressor, untuk memprediksi popularitas lagu berdasarkan fitur yang ada. Dengan model ini, kita dapat menentukan apakah atribut musik tertentu memiliki pengaruh besar terhadap popularitas lagu.
+1. PreProcessing Data: Mengatasi nilai yang hilang, serta normalisasi atau standarisasi fitur numerik yang relevan untuk analisis lebih lanjut.
+2. Modelling: Menggunakan teknik pembelajaran mesin, seperti Random Forest Classifier atau Random Forest Regressor, untuk memprediksi popularitas lagu berdasarkan fitur yang ada. Dengan model ini, kita dapat menentukan apakah atribut musik tertentu memiliki pengaruh besar terhadap popularitas lagu.
 3. Evaluasi Model: Menggunakan metrik evaluasi seperti akurasi, precision, recall, F1-score untuk menilai kinerja model dalam memprediksi kategori popularitas lagu (misalnya: "Populer" dan "Tidak Populer"). Selain itu, visualisasi seperti confusion matrix akan digunakan untuk memahami performa prediksi model.
 
 
@@ -53,9 +53,9 @@ Proses analisis diawali dengan mengimpor berbagai package yang diperlukan, seper
 
 Setelah dataset dimuat, tahap pertama adalah Exploratory Data Analysis (EDA), di mana data dieksplorasi untuk memahami distribusi variabel, hubungan antar fitur, dan mendeteksi masalah seperti data yang hilang atau _Missing Value_.
 
-Kemudian, proses Preprocessing dilakukan untuk menyiapkan data agar siap digunakan dalam model pembelajaran mesin. Langkah ini meliputi penanganan data yang hilang, konversi variabel kategorikal menjadi format numerik, dan normalisasi data.
+Kemudian, proses _Preprocessing_ dilakukan untuk menyiapkan data agar siap digunakan dalam model pembelajaran mesin. Langkah ini meliputi penanganan data yang hilang, konversi variabel kategorikal menjadi format numerik, normalisasi data dan penambahan variabel baru untuk target
 
-Setelah data siap, tahap Modeling dimulai, pada kasus ini model yang digunakan adalah [Random Forest](https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.RandomForestClassifier.html). Diterapkan untuk memprediksi pemesanan dan pembatalan berdasarkan fitur yang tersedia.
+Setelah data siap, tahap _Modelling_ dimulai, pada kasus ini model yang digunakan adalah [Random Forest](https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.RandomForestClassifier.html). Diterapkan untuk memprediksi pemesanan dan pembatalan berdasarkan fitur yang tersedia.
 
 Terakhir, Evaluation dilakukan untuk menilai kinerja model menggunakan [Evaluation Metrics](https://scikit-learn.org/stable/api/sklearn.metrics.html) seperti akurasi, precision, recall, dan F1-score, guna memastikan model dapat memprediksi dengan baik dan akurat.
 
