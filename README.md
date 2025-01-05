@@ -3,8 +3,6 @@ Disusun oleh :
 1. Rania Alfita Salma - 202110370311378
 2. Ellys Rahma Putri Bintoro - 202110370311468
 
----
-
 ## Pendahuluan
 Berikut adalah pendahuluan yang dituliskan ulang berdasarkan isi dari file yang Anda unggah, dengan gaya yang lebih terfokus dan unik:
 
@@ -30,6 +28,3 @@ Hasil analisis ini tidak hanya relevan bagi industri musik tetapi juga bagi kons
 
 Dengan pendekatan ini, kami berharap dapat menjawab pertanyaan mendasar tentang apa yang membuat sebuah lagu menjadi populer dan memberikan wawasan praktis yang dapat diterapkan di berbagai aspek industri musik.
 
----
-
-Jika Anda memiliki masukan atau poin spesifik yang ingin disesuaikan, silakan beri tahu saya!
