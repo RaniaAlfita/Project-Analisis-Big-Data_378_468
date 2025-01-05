@@ -79,7 +79,7 @@ Untuk memulai proyek ini, pastikan Anda telah menginstal semua package yang dibu
 
 1. **Clone repository** ini ke mesin lokal Anda:
    ```bash
-   git clone https://github.com/ellys15-TA-Analisis-Big-Data.git
+   git clone https://github.com/RaniaAlfita-Project-Analisis-Big-Data_378_468.git
    ```
 
 2. **Instal dependencies/package** menggunakan `pip`:
